@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body, html {
+    font-family: "Open Sans", serif;
     background-color: rgb(210, 230, 245);
     height: 100%;
     margin: 0;
@@ -6,8 +9,14 @@ body, html {
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
 }
 
 #calculator {
